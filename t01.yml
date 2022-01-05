@@ -1,0 +1,8 @@
+def clean_list(values):
+    values: []
+    clean = []
+    for i in values:
+        if i not in clean:
+            clean.append(i)
+    print("Cleaned: {}".format(clean))
+    
